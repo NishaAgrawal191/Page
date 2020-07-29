@@ -96,6 +96,8 @@ img:hover{
   transform: scale(1.3);
 }
 
+.f img:hover{transform: scale(1.3);}
+
 .central h1{
   /* margin:30px; */
   margin-top: 50px;
@@ -152,6 +154,10 @@ background-image: url(images/boat.jpg);
   background-image: url(images/flower.jpg);
 }
 
+.f{
+  background-image: url(images/kasol.jpg );
+}
+
 .d{
   background-image: url(images/mic.jpg);
   padding-bottom: 60px;
@@ -181,7 +187,7 @@ section::before{
 .textbox{
   display: inline-block;
   vertical-align: middle;
-  width:500px;
+  width:700px;
 }
 
 .first .textbox{
@@ -205,7 +211,7 @@ section::before{
 
 .left,.right{
   display: inline-block;
-  width:300px;
+  width:400px;
   vertical-align: middle;
 }
 .left{
@@ -215,11 +221,12 @@ section::before{
   margin-right: 50px;;
   float:right;
 }
+
 .third img{
    display: inline-block;
    width:400px;
    vertical-align: middle;
-   margin-left: 100px;
+   margin-left: 70px;
    margin-right: auto;
 }
 
